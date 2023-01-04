@@ -1,5 +1,5 @@
 title: oneuss的博客
 description: 这是我的博客
-theme: minima
-markdown: minimal-mistakes-jekyll
+theme: minimal-mistakes-jekyll
+markdown: kramdown
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"`
