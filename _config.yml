@@ -2,3 +2,18 @@ title: oneuss的博客
 description: 这是我的博客
 theme: minima
 markdown: kramdown
+
+include: ["_pages"]
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
