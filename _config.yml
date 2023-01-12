@@ -1,6 +1,9 @@
 title: oneuss的博客
 description: 这是我的博客
-theme: minima
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+- jekyll-remote-theme
+- jekyll-include-cache
 markdown: kramdown
 
 include: ["_pages"]
